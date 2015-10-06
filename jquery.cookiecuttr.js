@@ -192,9 +192,9 @@
                 }
             } else if ((!cookieAnalytics) && (!cookieDiscreetLink)) { // show privacy policy option
                 if (appOrPre) {
-                    $('body').append('<div class="cc-cookies ' + cookieOverlay + '">' + cookieMessage + cookieAccept + cookieDecline + '</div>');
+                    $('body').append('<div class="cc-cookies ' + cookieOverlay + '">' + cookieMessage + cookieDecline + cookieAccept + '</div>');
                 } else {
-                    $('body').prepend('<div class="cc-cookies ' + cookieOverlay + '">' + cookieMessage + cookieAccept + cookieDecline + '</div>');
+                    $('body').prepend('<div class="cc-cookies ' + cookieOverlay + '">' + cookieMessage + cookieDecline + cookieAccept + '</div>');
                 }
             }
         }
@@ -232,6 +232,10 @@
                         domain: '.' + options.cookieDomain,
                         path: '/'
                     });
+                    $.cookie("__utmt", null, {
+                        domain: '.' + options.cookieDomain,
+                        path: '/'
+                    });
                     $.cookie("__utmb", null, {
                         domain: '.' + options.cookieDomain,
                         path: '/'
@@ -241,6 +245,18 @@
                         path: '/'
                     });
                     $.cookie("__utmz", null, {
+                        domain: '.' + options.cookieDomain,
+                        path: '/'
+                    });
+                    $.cookie("__utmv", null, {
+                        domain: '.' + options.cookieDomain,
+                        path: '/'
+                    });
+                    $.cookie("_ga", null, {
+                        domain: '.' + options.cookieDomain,
+                        path: '/'
+                    });
+                    $.cookie("_gat", null, {
                         domain: '.' + options.cookieDomain,
                         path: '/'
                     });
