@@ -35,7 +35,7 @@
             cookieNotificationLocationBottom: true, // top or bottom - they are your only options, so true for bottom, false for top
             trackingCookiesNames: ["__utma","__utmb","__utmc","__utmt","__utmv","__utmz","_ga","_gat"], // Cookies to kill if declined
             cookieReload: false, // change to true to  reload the page when accepting the cookies
-            cookieImplicit: true // change to false to always display the cookie banner (explicit agreement)
+            cookieImplicit: true, // change to false to always display the cookie banner (explicit agreement)
             cookieErrorMessage: "We\'re sorry, this feature places cookies in your browser and has been disabled. <br>To continue using this functionality, please",
             cookieDisable: '',
             cookieExpires: 365,
