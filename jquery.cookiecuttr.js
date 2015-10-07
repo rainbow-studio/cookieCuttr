@@ -245,7 +245,9 @@
             }
             $(".cc-cookies").fadeOut(function () {
                 // reload page to activate cookies
-                location.reload();
+                if (cookieReload) {
+                    location.reload();
+                }
             });
         });
         //reset cookies
@@ -259,9 +261,7 @@
             });
             $(".cc-cookies").fadeOut(function () {
                 // reload page to activate cookies
-                if (cookieReload) {
-                    location.reload();
-                }
+                location.reload();
             });
         });
         //cookie error accept
