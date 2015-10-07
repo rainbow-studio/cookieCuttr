@@ -31,7 +31,7 @@
             cookieResetButton: false,
             cookieOverlayEnabled: false, // don't want a discreet toolbar? Fine, set this to true
             cookiePolicyLink: '/privacy-policy/', // if applicable, enter the link to your privacy policy here...
-            cookieMessage: 'Ce site utilise des cookies à des fins de mesure d\'audience, aucune information personnelle n\'est conservé. En  <a href="{{cookiePolicyLink}}" title="En savoir plus sur la politique de confidentialité du site">savoir plus</a> ou ',
+            cookieMessage: 'Ce site utilise des cookies à des fins de mesure d\'audience, aucune information personnelle n\'est conservée. En  <a href="{{cookiePolicyLink}}" title="En savoir plus sur la politique de confidentialité du site">savoir plus</a> ou ',
             cookieNotificationLocationBottom: true, // top or bottom - they are your only options, so true for bottom, false for top
             trackingCookiesNames: ["__utma","__utmb","__utmc","__utmt","__utmv","__utmz","_ga","_gat"], // Cookies to kill if declined
             cookieReload: false, // change to true to  reload the page when accepting the cookies
@@ -40,7 +40,7 @@
             cookieDisable: '',
             cookieExpires: 365,
             cookieAcceptButtonText: "OK, j'ai compris",
-            cookieDeclineButtonText: "S'opposer",
+            cookieDeclineButtonText: "s'opposer",
             cookieResetButtonText: "RESET COOKIES FOR THIS WEBSITE",
             cookiePolicyPage: false,
             cookiePolicyPageMessage: 'Please read the information below and then choose from the following options',
