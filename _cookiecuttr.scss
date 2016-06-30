@@ -45,7 +45,7 @@
 .cc-cookies-error a.cc-cookie-accept {
   display: inline-block;
   text-decoration: none;
-  @include button($button-tny, $success-color, $global-radius);
+  @include button($background:$success-color);
   // background: none;
   color: #fff;
   margin: 0 10px;
