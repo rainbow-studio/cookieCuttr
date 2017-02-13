@@ -102,7 +102,7 @@
     }
   }
 }
-@media #{$small-only} {
+@include breakpoint(small only) {
   .cc-cookies a.cc-cookie-accept {
     display: block;
     margin: 10px 0;
